@@ -18,5 +18,8 @@ class BST:
             n.left = self.create_bs_tree(args[0:mid])
             n.right = self.create_bs_tree(args[mid+1:len(args)])
 
+
+
+
 b = BST()
 b.create_bs_tree([1,2,3,4,5,6,7,8,9,10])
